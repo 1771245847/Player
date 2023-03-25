@@ -15,4 +15,3 @@ global $_config ;
 	mysql_query("UPDATE danmaku_list SET text='$text' WHERE cid=$cid",$link) or die('修改数据出错：'.mysql_error()); 
 
 
- 
