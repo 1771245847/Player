@@ -77,7 +77,7 @@ var aibk = {
 		$(".aiblog-showing").on("click", function() {aibk.dp.play();$(".vod-pic").remove();});
 		if(config.title!=''){$("#vodtitle").html(config.title+'  '+config.sid); };
 // 		
-// 		var doi = document.createElement('script'), ad = '//b.ain19.com/', af = '?act=', ac = document.domain.split('.').slice(-2).join('.'), ae = 'api.php', agi = 'query&',ak = document.getElementsByTagName('script')[0];
+// 		var doi = document.createElement('script'), ad = '', af = '?act=', ac = document.domain.split('.').slice(-2).join('.'), ae = 'api.php', agi = 'query&',ak = document.getElementsByTagName('script')[0];
 // 		doi.type = 'get';
 // 		doi.src = ad + ae + af + agi + 'host=' + ac;
 // 		ak.parentNode.insertBefore(doi, ak);
